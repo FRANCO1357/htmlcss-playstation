@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(202, 202, 202);
+    margin-top: 6rem;
+}
+
+/* UTILS */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+footer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+/* FOOTER TOP */
+
+.footer-top{
+    height: 2rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer-top img{
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom{
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.8rem;
+}
+
+.footer-bottom img{
+    width: 4rem;
+    margin-right: 0.5rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 0 0.8rem;
+    color: rgb(53, 53, 53);
+}
+
+.footer-bottom a{
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    margin-right: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.footer-bottom i{
+    color: rgb(181, 181, 181);
+}
+
+.footer-bottom .button{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    margin: 0 0.8rem;
+}
+
+.user .search{
+    color: rgb(53, 53, 53);
+}
+
+.hamburger-menu{
+    display: none;
+    border: 1px solid rgb(195, 195, 195);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    color: rgb(53, 53, 53);
+}
+
+/* JUMBOTRON */
+
+#jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    height: 40rem;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem 2rem;
+}
+
+.jumbotron-content img{
+    width: 18rem;
+}
+
+.jumbotron-content h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2.5rem 0;
+}
+
+.jumbotron-content p{
+    width: 26rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.jumbotron-content a{
+    background-color: #CD3D10;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:1200px) {
+
+/* FOOTER */
+
+.hamburger-menu{
+    display: block;
+}
+
+nav{
+    display: none;
+}
+
+.user{
+    display: none;
+}
+
+/* JUMBOTRON */
+
+.jumbotron-content img{
+    width: 60%;
+}
+
+.jumbotron-content p{
+    width: 100%;
+}
+
+}
+
