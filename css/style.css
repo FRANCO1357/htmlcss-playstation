@@ -343,77 +343,144 @@ a{
     margin-bottom: 4rem;
 }
 
+/* OFFER */
+
+#offer h2{
+    margin-top: 3rem;
+}
+
+#offer .row{
+    margin-top: 3rem;
+}
+
+#offer .col{
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+/* JUMBOTRON PLAYSTATION NOW */
+
+#jumbotron-playstation-now{
+    background-image: url('../img/ps-now-april-featured-image-block.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #151C3B;
+    min-height: 100%;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+#jumbotron-playstation-now .jumbotron-content img{
+    width: 25rem;
+    margin: 4rem 0 2rem 0;
+}
+
+#jumbotron-playstation-now .jumbotron-content p{
+    color: white;
+    width: 38rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+#jumbotron-playstation-now .jumbotron-content a{
+    background-color: #D9DADC;
+    color: black;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
 /* RESPONSIVE MD */
 
 @media screen and (max-width:1200px) {
 
-/* FOOTER */
+    /* FOOTER */
 
-.hamburger-menu{
-    display: block;
-}
+    .hamburger-menu{
+        display: block;
+    }
 
-nav{
-    display: none;
-}
+    nav{
+        display: none;
+    }
 
-.user{
-    display: none;
-}
+    .user{
+        display: none;
+    }
 
-/* JUMBOTRON */
+    /* JUMBOTRON */
 
-#jumbotron .jumbotron-content img{
-    width: 60%;
-}
+    #jumbotron .jumbotron-content img{
+        width: 60%;
+    }
 
-.jumbotron-content p{
-    width: 100%;
-}
+    .jumbotron-content p{
+        width: 100%;
+    }
 
-/* JUMBOTRON CARDS */
+    /* JUMBOTRON CARDS */
 
-#jumbotron-cards .col{
-    width: calc(100% / 3);
-}
+    #jumbotron-cards .col{
+        width: calc(100% / 3);
+    }
 
-/* PLAYSTATION 5 */
+    /* PLAYSTATION 5 */
 
-.article .col{
-    padding: 1.5rem;
-}
+    .article .col{
+        padding: 1.5rem;
+    }
 
-/* JUMBOTRON MULTIPLAYER */
+    /* JUMBOTRON MULTIPLAYER */
 
-#jumbotron-multiplayer .jumbotron-content img{
-    width: 60%;
-}
+    #jumbotron-multiplayer .jumbotron-content img{
+        width: 60%;
+    }
 
-#jumbotron-multiplayer .jumbotron-content h2{
-    width: 100%;
-}
+    #jumbotron-multiplayer .jumbotron-content h2{
+        width: 100%;
+    }
 
-/* NEW RELEASES */
+    /* NEW RELEASES */
 
-#new-releases .col{
-    width: calc(100% / 3);
-}
+    #new-releases .col{
+        width: calc(100% / 3);
+    }
 
-/* JUMBOTRON PLAYSTATION PLUS */
+    /* JUMBOTRON PLAYSTATION PLUS */
 
-#jumbotron-playstation-plus .jumbotron-content img{
-    width: 12rem;
-    margin-top: 0;
-}
+    #jumbotron-playstation-plus .jumbotron-content img{
+        width: 15rem;
+        margin-top: 0;
+    }
 
-#jumbotron-playstation-plus .jumbotron-content p{
-    width: 22rem;
-    font-size: 1rem;
-}
+    #jumbotron-playstation-plus .jumbotron-content p{
+        width: 22rem;
+        font-size: 1rem;
+    }
 
-#jumbotron-playstation-plus .jumbotron-content a{
-    margin: 0;
-}
+    #jumbotron-playstation-plus .jumbotron-content a{
+        margin: 0;
+    }
+
+    /* JUMBOTRON PLAYSTATION NOW */
+
+    #jumbotron-playstation-now .jumbotron-content img{
+        width: 15rem;
+        margin-top: 0;
+    }
+
+    #jumbotron-playstation-now .jumbotron-content p{
+        width: 22rem;
+        margin-bottom: 2rem;
+    }
+    
+    #jumbotron-playstation-now .jumbotron-content a{
+        margin: 0;
+    }
 
 }
 
@@ -440,12 +507,37 @@ nav{
     #playstation-4 .col{
         width: 100%;
     }
-    
+
+    /* JUMBOTRON PLAYSTATION PLUS */
+
+    #jumbotron-playstation-plus{
+        background-image: none;
+   
+    }
+
+    #jumbotron-playstation-plus .jumbotron-content img{
+        width: 20rem;
+    }
+
+    #jumbotron-playstation-plus .jumbotron-content p{
+        width: 100%;
+    }
+
+    #jumbotron-playstation-plus .jumbotron-content a{
+        margin-bottom: 2rem;
+    }
+
+    /* OFFER */
+
+    #offer .col{
+        width: 100%;
+    }
+
 }
 
 /* RESPONSIVE XS */
 
-@media screen and (max-width:576px) {
+    @media screen and (max-width:576px) {
 
     section{
         padding: 1rem;
@@ -453,14 +545,14 @@ nav{
 
     /* JUMBOTRON CARDS */
 
-#jumbotron-cards .col{
-    width: calc(100% / 2);
-}
+    #jumbotron-cards .col{
+        width: calc(100% / 2);
+    }
 
-/* NEW RELEASES */
+    /* NEW RELEASES */
 
-#new-releases .col{
-    width: calc(100% / 2);
-}
+    #new-releases .col{
+        width: calc(100% / 2);
+    }
     
 }
