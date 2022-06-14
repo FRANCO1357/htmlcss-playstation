@@ -41,6 +41,29 @@ section{
     padding: 2rem;
 }
 
+.wt-section{
+    text-align: center;
+}
+
+.wt-section h2{
+    margin: 0.3rem 0 1.8rem 0;
+}
+
+.wt-section p{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.wt-section a{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
 /* HEADER */
 
 footer{
@@ -98,6 +121,7 @@ footer{
 }
 
 .footer-bottom a{
+    background-color: transparent;
     color: rgb(53, 53, 53);
     text-decoration: none;
     margin-right: 0.4rem;
@@ -172,27 +196,14 @@ footer{
 
 /* PLAYSTATION 5 */
 
-#playstation-5{
-    text-align: center;
-}
-
 #playstation-5 .info{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#playstation-5 h2{
-    margin: 0.3rem 0 1.8rem 0;
-}
-
 #playstation-5 span{
     color: dodgerblue;
-}
-
-#playstation-5 p{
-    color: grey;
-    font-size: 1.3rem;
 }
 
 .info .text{
@@ -204,7 +215,7 @@ footer{
     width: 60%;
 }
 
-.info a{
+a{
     background-color: dodgerblue;
     color: white;
     text-decoration: none;
@@ -278,6 +289,22 @@ footer{
 
 #new-releases img{
     border-radius: 1rem;
+}
+
+/* PLAYSTATION 4 */
+
+#playstation-4 .row{
+    margin-top: 2rem;
+}
+
+#playstation-4 .col{
+    width: calc(100% / 3);
+    padding: 1rem;
+    text-align: left;
+}
+
+#playstation-4 h2{
+    margin-top: 3rem;
 }
 
 /* RESPONSIVE MD */
@@ -354,6 +381,12 @@ nav{
 
     .article .col{
         width: calc(100% / 3);
+    }
+
+    /* PLAYSTATION 4 */
+
+    #playstation-4 .col{
+        width: 100%;
     }
     
 }
