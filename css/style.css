@@ -307,6 +307,42 @@ a{
     margin-top: 3rem;
 }
 
+/* JUMBOTRON PLAYSTATION PLUS */
+
+#jumbotron-playstation-plus{
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #BFBCBB;
+    min-height: 100%;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+#jumbotron-playstation-plus .jumbotron-content img{
+    width: 25rem;
+    margin-top: 4rem;
+}
+
+#jumbotron-playstation-plus .jumbotron-content p{
+    width: 40rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 2rem 0;
+}
+
+#jumbotron-playstation-plus .jumbotron-content a{
+    background-color: #D9DADC;
+    color: dodgerblue;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
 /* RESPONSIVE MD */
 
 @media screen and (max-width:1200px) {
@@ -361,6 +397,22 @@ nav{
 
 #new-releases .col{
     width: calc(100% / 3);
+}
+
+/* JUMBOTRON PLAYSTATION PLUS */
+
+#jumbotron-playstation-plus .jumbotron-content img{
+    width: 12rem;
+    margin-top: 0;
+}
+
+#jumbotron-playstation-plus .jumbotron-content p{
+    width: 22rem;
+    font-size: 1rem;
+}
+
+#jumbotron-playstation-plus .jumbotron-content a{
+    margin: 0;
 }
 
 }
