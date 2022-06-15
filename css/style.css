@@ -22,7 +22,6 @@ ul{
 
 .row{
     display: flex;
-    margin: 0 -1rem;
     flex-wrap: wrap;
 }
 
@@ -39,10 +38,6 @@ h2{
 h3{
     font-size: 1.8rem;
     font-weight: 400;
-}
-
-section{
-    padding: 2rem;
 }
 
 .wt-section{
