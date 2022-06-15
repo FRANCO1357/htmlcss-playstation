@@ -66,7 +66,7 @@ h3{
     margin: 2rem 0;
 }
 
-#jumbotron .button{
+.jumbotron .button{
     text-decoration: none;
     padding: 0.6rem 1rem;
     border-radius: 2rem;
@@ -135,7 +135,11 @@ header{
 }
 
 .header-bottom a:hover{
-    color: rgb(74, 74, 74);
+    color: rgb(53, 53, 53);
+}
+
+.header-bottom .button:hover{
+    color: white;
 }
 
 .header-bottom .button{
@@ -160,14 +164,14 @@ header{
 
 /* JUMBOTRON */
 
-#jumbotron{
+.jumbotron{
     min-height: 40rem;
     color: white;
     display: flex;
     align-items: flex-end;
 }
 
-.main-jumbotron{
+#main-jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-size: cover;
@@ -247,17 +251,17 @@ header{
 
 /* JUMBOTRON MULTIPLAYER */
 
-.multiplayer{
+#multiplayer{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
 }
 
-.multiplayer .jumbotron-content{
+#multiplayer .jumbotron-content{
     max-height: 100%;
 }
 
-.multiplayer .jumbotron-content h2{
+#multiplayer .jumbotron-content h2{
     width: 25rem;
 }
 
@@ -443,6 +447,10 @@ footer p{
     margin: 2rem 0;
 }
 
+footer .footer-bottom{
+    margin-top: 2rem;
+}
+
 footer .footer-bottom p{
     margin: 0;
 }
@@ -471,7 +479,7 @@ footer .footer-bottom p{
 
     /* JUMBOTRON */
 
-    #jumbotron .jumbotron-content img{
+    .jumbotron .jumbotron-content img{
         width: 60%;
     }
 
@@ -493,11 +501,11 @@ footer .footer-bottom p{
 
     /* JUMBOTRON MULTIPLAYER */
 
-    .multiplayer .jumbotron-content img{
+    #multiplayer .jumbotron-content img{
         width: 60%;
     }
 
-    .multiplayer .jumbotron-content h2{
+    #multiplayer .jumbotron-content h2{
         width: 100%;
     }
 
