@@ -16,6 +16,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .row{
     display: flex;
     margin: 0 -1rem;
@@ -66,7 +70,7 @@ section{
 
 /* HEADER */
 
-footer{
+header{
     position: fixed;
     left: 0;
     top: 0;
@@ -74,9 +78,9 @@ footer{
     z-index: 1;
 }
 
-/* FOOTER TOP */
+/* HEADER TOP */
 
-.footer-top{
+.header-top{
     height: 2rem;
     background-color: black;
     display: flex;
@@ -84,14 +88,14 @@ footer{
     justify-content: end;
 }
 
-.footer-top img{
+.header-top img{
     width: 6rem;
     margin-right: 1rem;
 }
 
-/* FOOTER BOTTOM */
+/* HEADER BOTTOM */
 
-.footer-bottom{
+.header-bottom{
     background-color: white;
     height: 4rem;
     display: flex;
@@ -100,7 +104,7 @@ footer{
     padding: 0 0.8rem;
 }
 
-.footer-bottom img{
+.header-bottom img{
     width: 4rem;
     margin-right: 0.5rem;
 }
@@ -112,7 +116,6 @@ footer{
 
 .menu ul{
     display: flex;
-    list-style-type: none;
 }
 
 .menu li{
@@ -120,7 +123,7 @@ footer{
     color: rgb(53, 53, 53);
 }
 
-.footer-bottom a{
+.header-bottom a{
     background-color: transparent;
     color: rgb(53, 53, 53);
     text-decoration: none;
@@ -128,11 +131,11 @@ footer{
     font-size: 1.1rem;
 }
 
-.footer-bottom i{
+.header-bottom i{
     color: rgb(181, 181, 181);
 }
 
-.footer-bottom .button{
+.header-bottom .button{
     background-color: rgb(53, 53, 53);
     color: white;
     padding: 0.6rem 1rem;
@@ -394,11 +397,62 @@ a{
     margin-bottom: 4rem;
 }
 
+/* SOCIAL */
+
+#social h2{
+    margin: 3rem 0;
+}
+
+#social .row{
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#social .col{
+    width: calc(100% / 8);
+    padding: 1rem;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #04449B;
+    min-height: 30rem;
+    padding: 2rem;
+}
+
+footer .col{
+    width: 50%;
+}
+
+.row .row > .col{
+    width: calc(100% / 3);
+}
+
+footer a{
+    background-color: transparent;
+    margin: 0;
+}
+
+footer img{
+    width: 8rem;
+}
+
+footer p{
+    width: 50%;
+    color: white;
+    margin: 2rem 0;
+}
+
+footer .footer-bottom p{
+    margin: 0;
+}
+
 /* RESPONSIVE MD */
 
 @media screen and (max-width:1200px) {
 
-    /* FOOTER */
+    /* HEADER */
 
     .hamburger-menu{
         display: block;
@@ -482,6 +536,22 @@ a{
         margin: 0;
     }
 
+    /* SOCIAL */
+
+    #social .col{
+        width: calc(100% / 5);
+    }
+
+    /* FOOTER */
+
+    footer .col{
+        width: 100%;
+    }
+
+    footer p{
+        width: 100%;
+    }
+
 }
 
 /* RESPONSIVE S */
@@ -512,7 +582,6 @@ a{
 
     #jumbotron-playstation-plus{
         background-image: none;
-   
     }
 
     #jumbotron-playstation-plus .jumbotron-content img{
@@ -531,6 +600,37 @@ a{
 
     #offer .col{
         width: 100%;
+    }
+
+    /* JUMBOTRON PLAYSTATION NOW */
+
+    #jumbotron-playstation-now{
+        background-image: none;
+    }
+
+    #jumbotron-playstation-now .jumbotron-content img{
+        width: 20rem;
+        margin-top: 2rem;
+    }
+
+    #jumbotron-playstation-now .jumbotron-content p{
+        width: 100%;
+    }
+
+    #jumbotron-playstation-now .jumbotron-content a{
+        margin-bottom: 2rem;
+    }
+
+    /* SOCIAL */
+
+    #social .col{
+        width: calc(100% / 4);
+    }
+
+    /* FOOTER */
+
+    .row .row{
+        display: block;
     }
 
 }
@@ -553,6 +653,12 @@ a{
 
     #new-releases .col{
         width: calc(100% / 2);
+    }
+
+    /* SOCIAL */
+
+    #social .col{
+        width: 50%;
     }
     
 }
